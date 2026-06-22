@@ -40,6 +40,19 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"format" : 6,
+					"id" : "obj-6",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 487.0, 165.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-29",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -329,8 +342,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 321.666666666666686, 157.0, 79.0, 22.0 ],
-					"text" : "collapse G#3"
+					"patching_rect" : [ 321.666666666666686, 157.0, 77.0, 22.0 ],
+					"text" : "collapse Bb3"
 				}
 
 			}
@@ -363,16 +376,16 @@
 				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
-					"numinlets" : 4,
+					"numinlets" : 5,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 270.0, 219.0, 65.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "bees2.js",
+						"filename" : "bees4.js",
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "js bees2.js"
+					"text" : "js bees4.js"
 				}
 
 			}
@@ -435,15 +448,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 1 ],
-					"source" : [ "obj-7", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"source" : [ "obj-7", 2 ]
+					"destination" : [ "obj-1", 3 ],
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}
@@ -505,22 +511,22 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "bees2.js",
-				"bootpath" : "~/Documents/MaxPatches/beesReconstruction",
+				"name" : "bees4.js",
+				"bootpath" : "~/Documents/GitHub/ofdfReconstruction",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "beesPoly.maxpat",
-				"bootpath" : "~/Documents/MaxPatches/beesReconstruction",
+				"bootpath" : "~/Documents/GitHub/ofdfReconstruction",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bees_ui.js",
-				"bootpath" : "~/Documents/MaxPatches/beesReconstruction",
+				"bootpath" : "~/Documents/GitHub/ofdfReconstruction",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
