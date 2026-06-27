@@ -3,26 +3,26 @@
 // by André Perrotta (original), Max port 2024
 //
 // Inlets:
-//   0 — bang: force a manual update tick (optional, loop is internal)
+//   0 — bang / start / stop: manual tick or loop control
 //   1 — "collapse <noteName>": trigger a collapse event
 //   2 — "redraw <1|2|3>": switch conjunto and re-roll all bees
-//   3 — "rollall": roll dice on every bee without changing conjunto
+//   3 — float: global speed multiplier (1.0 = normal, 0.5 = half, 2.0 = double)
+//   4 — "rollall": roll dice on every bee without changing conjunto
 //
 // Outlets:
-//   0 — list [note amp1 note amp1 ...] for speaker corner 1 (64 pairs)
-//   1 — list [note amp2 ...] for speaker corner 2
-//   2 — list [note amp3 ...] for speaker corner 3
-//   3 — list [note amp4 ...] for speaker corner 4
-//   4 — list [x y radius status note ...] per bee, for jsui drawing (6 vals × 64)
+//   0 — one list [voice freq amp x y] per bee per tick  →  [poly~ bee.voice~ 64]
+//   1 — flat list [x y] × 64                            →  [jsui bees_ui.js]
 
-inlets  = 4;
-outlets = 5;
+inlets  = 5;
+outlets = 2;
 
 // ─── tuneable constants ────────────────────────────────────────────────────
 var NUM_BEES     = 64;
 var TICK_MS      = 16;   // ~60 fps internal loop
 var SCREEN_W     = 1024; // match ofSetupOpenGL width
 var SCREEN_H     = 768;  // match ofSetupOpenGL height
+
+var speedMult    = 1.0;  // global speed multiplier — controlled via inlet 3
 
 // ─── note tables (copied verbatim from Bees.cpp) ──────────────────────────
 function makeNotes() {
@@ -207,7 +207,7 @@ Bee.prototype.update = function() {
 	}
 
 	// position
-	b.theta += b.w;
+	b.theta += b.w * speedMult;
 	b.x = b.radius * Math.cos(b.theta * Math.PI / 180.0) + SCREEN_W * 0.5;
 	b.y = b.radius * Math.sin(b.theta * Math.PI / 180.0) + SCREEN_H * 0.5;
 
@@ -261,26 +261,29 @@ function conjuntoForNota(nota) {
 	return 1;
 }
 
+// Round to 4 decimal places for reliable float key comparison
+function freqKey(f) {
+	return Math.round(f * 10000);
+}
+
 function applyCollapse(nota) {
 	var collapseSet = getCollapseNotes(nota);
 	if (!collapseSet) return;
 	var targetConjunto = conjuntoForNota(nota);
 
-	// Build a Set-like lookup using a plain object keyed by rounded freq string
-	// (float equality is fine here — values come from the same array)
 	var inSet = {};
 	for (var i = 0; i < collapseSet.length; i++) {
-		inSet[collapseSet[i]] = true;
+		inSet[freqKey(collapseSet[i])] = true;
 	}
 
 	for (var j = 0; j < bees.length; j++) {
 		var b = bees[j];
 		if (b.status !== "floating") continue;
-		if (inSet[b.note]) {
-			b.status  = "collapse";
+		if (inSet[freqKey(b.note)]) {
+			b.status   = "collapse";
 			b.conjunto = targetConjunto;
 		} else {
-			b.status  = "inverseCollapse";
+			b.status   = "inverseCollapse";
 			b.conjunto = targetConjunto;
 		}
 	}
@@ -306,27 +309,20 @@ function setupBees() {
 }
 
 function tick() {
-	var out1 = [], out2 = [], out3 = [], out4 = [];
 	var drawData = [];
 
 	for (var i = 0; i < bees.length; i++) {
 		var b = bees[i];
 		b.update();
 
-		out1.push(b.note, Math.max(0, b.amp1));
-		out2.push(b.note, Math.max(0, b.amp2));
-		out3.push(b.note, Math.max(0, b.amp3));
-		out4.push(b.note, Math.max(0, b.amp4));
+		// one message per bee: voice(1-indexed) freq amp x y
+		outlet(0, [i + 1, b.note, b.vol, b.x, b.y]);
 
-		// for jsui: x and y only
+		// jsui: x and y only
 		drawData.push(b.x, b.y);
 	}
 
-	outlet(0, out1);
-	outlet(1, out2);
-	outlet(2, out3);
-	outlet(3, out4);
-	outlet(4, drawData);
+	outlet(1, drawData);  // flat list [x y] × 64 → jsui
 }
 
 function startLoop() {
@@ -372,15 +368,21 @@ function redraw(n) {
 	}
 }
 
-// inlet 3: "rollall" — roll without changing conjunto
+// inlet 3: float — global speed multiplier
+function msg_float(v) {
+	if (inlet === 3) speedMult = Math.max(0.0, v);
+}
+
+// inlet 4: "rollall" — roll without changing conjunto
 function rollall() {
-	if (inlet !== 3) return;
+	if (inlet !== 4) return;
 	for (var i = 0; i < bees.length; i++) bees[i].rollDice();
 }
 
-// expose as named messages too (Max convention)
+// expose int as named message too (Max convention)
 function msg_int(v) {
 	if (inlet === 2) redraw(v);
+	if (inlet === 3) speedMult = Math.max(0.0, v);
 }
 
 // ─── lifecycle ─────────────────────────────────────────────────────────────
