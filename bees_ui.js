@@ -38,6 +38,11 @@ function list()     { store(arrayfromargs(arguments)); }
 function anything() { store(arrayfromargs(arguments)); }
 function bang()     { mgraphics.redraw(); }
 
+function clear() {
+	beeData = [];
+	mgraphics.redraw();
+}
+
 function paint() {
 	var w = box.rect[2] - box.rect[0];
 	var h = box.rect[3] - box.rect[1];
