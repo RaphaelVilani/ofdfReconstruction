@@ -352,9 +352,28 @@ function stop() {
 	if (inlet === 0) stopLoop();
 }
 
-// inlet 1: "collapse G#3"  or  "collapse B4_3"  etc.
-function collapse(nota) {
-	if (inlet === 1 && nota) applyCollapse(nota);
+// inlet 1: integer 0-13 matching the original OSC /collapse argument
+var COLLAPSE_MAP = [
+	"G#3",   // 0
+	"Bb3",   // 1
+	"D4",    // 2
+	"F#4",   // 3
+	"G4",    // 4
+	"C5",    // 5
+	"E5",    // 6
+	"A5",    // 7
+	"G3_2",  // 8
+	"F#4_2", // 9
+	"D5_2",  // 10
+	"E5_2",  // 11
+	"A#5_2", // 12
+	"B4_3"   // 13
+];
+
+function collapse(n) {
+	if (inlet !== 1) return;
+	var nota = COLLAPSE_MAP[parseInt(n)];
+	if (nota) applyCollapse(nota);
 }
 
 // inlet 2: "redraw 1" / "redraw 2" / "redraw 3"
