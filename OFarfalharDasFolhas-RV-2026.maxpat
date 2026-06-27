@@ -421,8 +421,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 886.5, 884.0, 97.0, 22.0 ],
-					"text" : "r beesMaster_lvl"
+					"patching_rect" : [ 886.5, 884.0, 118.0, 22.0 ],
+					"text" : "r resSynthMaster_lvl"
 				}
 
 			}
@@ -964,7 +964,7 @@
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_modmode" : 3,
-							"parameter_shortname" : "Bees",
+							"parameter_shortname" : "Res. Synth",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
 						}
@@ -2358,12 +2358,12 @@
 					"numoutlets" : 2,
 					"numouts" : 4,
 					"outcolormap" : "none",
-					"outlabels" : [ "Shuffle/RM", "TimeStretch", "Bees", "Reverb", "Amp" ],
+					"outlabels" : [ "Shuffle/RM", "TimeStretch", "Res. Synth", "Reverb", "Amp" ],
 					"outlettype" : [ "", "dictionary" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 53.0, 259.5, 465.5, 191.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 831.0, 183.0, 442.0, 191.0 ],
+					"presentation_rect" : [ 831.0, 183.0, 418.0, 191.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -2729,13 +2729,14 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-10",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 384.0, 316.0, 94.0, 22.0 ],
+									"patching_rect" : [ 458.0, 316.0, 94.0, 22.0 ],
 									"text" : "send~ toReverb"
 								}
 
@@ -2746,8 +2747,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 293.0, 316.0, 82.0, 22.0 ],
-									"text" : "send~ toBees"
+									"patching_rect" : [ 293.0, 316.0, 158.0, 22.0 ],
+									"text" : "send~ toResonantSynthesis"
 								}
 
 							}
@@ -31947,12 +31948,60 @@
 										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
+													"id" : "obj-12",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 3,
+													"outlettype" : [ "float", "float", "" ],
+													"patching_rect" : [ 94.0, 287.0, 81.0, 22.0 ],
+													"text" : "fzero~"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-11",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "signal" ],
+													"patching_rect" : [ 94.0, 188.0, 39.0, 22.0 ],
+													"text" : "gate~"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-10",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "signal" ],
+													"patching_rect" : [ 114.0, 68.0, 171.0, 22.0 ],
+													"text" : "receive~ toResonantSynthesis"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-8",
+													"maxclass" : "newobj",
+													"numinlets" : 3,
+													"numoutlets" : 1,
+													"outlettype" : [ "signal" ],
+													"patching_rect" : [ 37.0, 139.0, 82.0, 22.0 ],
+													"text" : "thresh~ 0. 0.3"
+												}
+
+											}
+, 											{
+												"box" : 												{
 													"id" : "obj-7",
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 455.0, 54.0, 32.0, 22.0 ],
+													"patching_rect" : [ 455.0, 50.0, 32.0, 22.0 ],
 													"text" : "start"
 												}
 
@@ -32249,6 +32298,29 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-11", 1 ],
+													"order" : 0,
+													"source" : [ "obj-10", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-8", 0 ],
+													"order" : 1,
+													"source" : [ "obj-10", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-12", 0 ],
+													"source" : [ "obj-11", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-9", 1 ],
 													"source" : [ "obj-29", 1 ]
 												}
@@ -32275,6 +32347,13 @@
 												}
 
 											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-11", 0 ],
+													"source" : [ "obj-8", 0 ]
+												}
+
+											}
  ]
 									}
 ,
@@ -32286,7 +32365,7 @@
 										"tags" : ""
 									}
 ,
-									"text" : "p ResonatnSynthesis"
+									"text" : "p ResonantSynthesis"
 								}
 
 							}
@@ -42153,7 +42232,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 50.0, 276.0, 99.0, 22.0 ],
-																	"text" : "set 0.5, 0. 11666"
+																	"text" : "set 0.5, 0. 0"
 																}
 
 															}
@@ -65552,7 +65631,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 457.0, 226.0, 81.0, 19.0 ],
-																	"text" : "0, 5000 35000"
+																	"text" : "0, 5000 0"
 																}
 
 															}
@@ -69587,7 +69666,7 @@
 					"patching_rect" : [ 4364.0, 2800.0, 90.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 42.0, 740.0, 59.277353689567406, 23.0 ],
-					"text" : "5.0 %",
+					"text" : "0.0 %",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 2
 				}
@@ -69679,7 +69758,7 @@
 					"patching_rect" : [ 4512.0, 2868.0, 72.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 45.0, 762.0, 51.867684478371473, 19.0 ],
-					"text" : "8.7 %",
+					"text" : "7.6 %",
 					"textcolor" : [ 0.203921568627451, 0.196078431372549, 0.196078431372549, 1.0 ],
 					"textjustification" : 2
 				}
@@ -71848,7 +71927,7 @@
 			"obj-17" : [ "live.gain~[3]", "Clarinet", 0 ],
 			"obj-18" : [ "live.gain~[4]", "Violin", 0 ],
 			"obj-181" : [ "live.gain~[19]", "Master", 0 ],
-			"obj-186" : [ "live.gain~[20]", "Bees", 0 ],
+			"obj-186" : [ "live.gain~[20]", "Res. Synth", 0 ],
 			"obj-19" : [ "live.gain~[5]", "Cello", 0 ],
 			"obj-20" : [ "live.gain~[6]", "Leaf", 0 ],
 			"obj-31" : [ "live.gain~[7]", "Test", 0 ],
