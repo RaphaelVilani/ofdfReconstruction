@@ -2741,12 +2741,6 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
-					"connections" : [ 						{
-							"in" : 3,
-							"out" : 0,
-							"gain" : 1.0
-						}
- ],
 					"dividers" : "none",
 					"fontface" : 0,
 					"fontname" : "Ableton Sans Medium",
@@ -30409,7 +30403,7 @@
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patching_rect" : [ 169.0, 197.0, 132.0, 17.0 ],
-																					"text" : "115 179 125 189"
+																					"text" : "157 205 167 215"
 																				}
 
 																			}
@@ -30810,7 +30804,7 @@
 																					"numoutlets" : 1,
 																					"outlettype" : [ "" ],
 																					"patching_rect" : [ 169.0, 197.0, 132.0, 20.0 ],
-																					"text" : "239 203 249 213"
+																					"text" : "336 39 346 49"
 																				}
 
 																			}
@@ -43962,12 +43956,13 @@
 , 															{
 																"box" : 																{
 																	"id" : "obj-82",
+																	"linecount" : 2,
 																	"maxclass" : "message",
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 454.0, 386.0, 50.0, 35.0 ],
-																	"text" : "800 659"
+																	"text" : "1144 1023"
 																}
 
 															}
@@ -44087,7 +44082,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 521.0, 285.0, 50.0, 22.0 ],
-																	"text" : "659"
+																	"text" : "1023"
 																}
 
 															}
@@ -44170,7 +44165,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 316.0, 285.0, 50.0, 22.0 ],
-																	"text" : "141"
+																	"text" : "121"
 																}
 
 															}
@@ -44242,7 +44237,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 162.0, 309.0, 50.0, 22.0 ],
-																	"text" : "125"
+																	"text" : "118"
 																}
 
 															}
@@ -77593,7 +77588,7 @@
 					"patching_rect" : [ 4364.0, 2800.0, 90.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 42.0, 740.0, 59.277353689567406, 23.0 ],
-					"text" : "6.0 %",
+					"text" : "7.0 %",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 2
 				}
@@ -77685,7 +77680,7 @@
 					"patching_rect" : [ 4512.0, 2868.0, 72.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 45.0, 762.0, 51.867684478371473, 19.0 ],
-					"text" : "8.6 %",
+					"text" : "8.5 %",
 					"textcolor" : [ 0.203921568627451, 0.196078431372549, 0.196078431372549, 1.0 ],
 					"textjustification" : 2
 				}
@@ -78352,7 +78347,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "bang" ],
 					"patching_rect" : [ 1295.0, 296.0, 94.0, 22.0 ],
-					"save" : [ "#N", "qlist", ";", "#X", "insert", "muteTimeStretching", 1, 1, ";", ";", "#X", "insert", "muteShuffling", 1, 1, ";", ";", "#X", "insert", "muteReverb", 1, 1, ";", ";", "#X", "insert", "muteAmp", 0, 1, ";", ";", "#X", "insert", "muteResonantSynthesis", 1, 1, 0, ";", ";", "#X", "insert", "resSynthStart", "stop", ";", ";", "#X", "insert", "toBeesViewer", "clear", ";", ";", "#X", "insert", "routeMap", "clear", ";", ";", "#X", "insert", "traj3_stop", 0, ";", ";", "#X", "insert", "traj4_stop", 0, ";", ";", "#X", "insert", 0, ";", ";", "#X", "insert", "routeMap", "clear", ";", ";", "#X", "insert", "routeMap", 2, 1, 1, ";", ";", "#X", "insert", "traj3_env", 200.0, "_comma_", 10.0, 45000, ";", ";", "#X", "insert", "traj4_env", 60.0, "_comma_", 245.0, 45000, ";", ";", "#X", "insert", "stretchParams", 5000, 9, 180, 64, ";", ";", "#X", "insert", "startStretch", "bang", ";", ";", "#X", "insert", "muteTimeStretching", 0, 1, ";", ";", "#X", "insert", 1, ";", ";", "#X", "insert", "routeMap", "clear", ";", ";", "#X", "insert", "routeMap", 0, 2, 1, "_comma_", 1, 2, 1, "_comma_", 2, 2, 1, "_comma_", 3, 2, 1, "_comma_", 4, 2, 1, ";", ";", "#X", "insert", "resSynthThreshold", 0.003, ";", ";", "#X", "insert", "fiddlePitchSet", 1, ";", ";", "#X", "insert", "resSynthRedraw", "redraw", 1, ";", ";", "#X", "insert", "resSynthSpeed", 1.0, ";", ";", "#X", "insert", "resSynthEnv", 2700, 34000, 40000, ";", ";", "#X", "insert", "resSynthStart", "start", ";", ";", "#X", "insert", "muteResonantSynthesis", 0, 1, ";", ";", "#X", "insert", 2, ";", ";", "#X", "insert", "routemeMap", "clear", ";", ";", "#X", "insert", "routeMap", 0, 2, 1, "_comma_", 0, 3, 1, ";", ";", "#X", "insert", "resSynthThreshold", 0.003, ";", ";", "#X", "insert", "fiddlePitchSet", 1, ";", ";", "#X", "insert", "resSynthRedraw", "redraw", 1, ";", ";", "#X", "insert", "resSynthSpeed", 1.0, ";", ";", "#X", "insert", "resSynthEnv", 1500, 15000, 29000, ";", ";", "#X", "insert", "resSynthStart", "start", ";", ";", "#X", "insert", "reverbParams", 50, 75, 110, 86, ";", ";", "#X", "insert", "reverbInput_lvl", 1.0, ";", ";", "#X", "insert", "reverbEnv", 1500, 40000, 1500, ";", ";", "#X", "insert", "muteResonantSynthesis", 0, 1, ";", ";", "#X", "insert", "muteReverb", 0, 1, ";", ";", "#X", "insert", 3, ";", ";", "#X", "insert", "routeMap", "clear", ";", ";", "#X", "insert", "routeMap", 3, 0, 1, ";", ";", "#X", "insert", "shufflingParams", 10, 200, 106, 167, ";", ";", "#X", "insert", "shufflingEnv", 1300, 24300, 6000, ";", ";", "#X", "insert", "traj1Toggle", 1, ";", ";", "#X", "insert", "traj2Toggle", 1, ";", ";", "#X", "insert", "rmToggle", 0, ";", ";", "#X", "insert", "shuffleStart", 1, ";", ";", "#X", "insert", "muteShuffling", 0, 1, ";", ";", "#X", "insert", 4, ";", ";" ],
+					"save" : [ "#N", "qlist", ";", "#X", "insert", "muteTimeStretching", 1, 1, ";", ";", "#X", "insert", "muteShuffling", 1, 1, ";", ";", "#X", "insert", "muteReverb", 1, 1, ";", ";", "#X", "insert", "muteAmp", 0, 1, ";", ";", "#X", "insert", "muteResonantSynthesis", 1, 1, 0, ";", ";", "#X", "insert", "resSynthStart", "stop", ";", ";", "#X", "insert", "toBeesViewer", "clear", ";", ";", "#X", "insert", "routeMap", "clear", ";", ";", "#X", "insert", "traj3_stop", 0, ";", ";", "#X", "insert", "traj4_stop", 0, ";", ";", "#X", "insert", 0, ";", ";", "#X", "insert", "routeMap", "clear", ";", ";", "#X", "insert", "routeMap", 2, 1, 1, ";", ";", "#X", "insert", "traj3_env", 200.0, "_comma_", 10.0, 45000, ";", ";", "#X", "insert", "traj4_env", 60.0, "_comma_", 245.0, 45000, ";", ";", "#X", "insert", "stretchParams", 5000, 9, 180, 64, ";", ";", "#X", "insert", "startStretch", "bang", ";", ";", "#X", "insert", "muteTimeStretching", 0, 1, ";", ";", "#X", "insert", 1, ";", ";", "#X", "insert", "routeMap", "clear", ";", ";", "#X", "insert", "routeMap", 0, 2, 1, "_comma_", 1, 2, 1, "_comma_", 2, 2, 1, "_comma_", 3, 2, 1, "_comma_", 4, 2, 1, ";", ";", "#X", "insert", "resSynthThreshold", 0.003, ";", ";", "#X", "insert", "fiddlePitchSet", 1, ";", ";", "#X", "insert", "resSynthRedraw", "redraw", 1, ";", ";", "#X", "insert", "resSynthSpeed", 1.0, ";", ";", "#X", "insert", "resSynthEnv", 2700, 34000, 40000, ";", ";", "#X", "insert", "resSynthStart", "start", ";", ";", "#X", "insert", "muteResonantSynthesis", 0, 1, ";", ";", "#X", "insert", 2, ";", ";", "#X", "insert", "routemeMap", "clear", ";", ";", "#X", "insert", "routeMap", 0, 2, 1, "_comma_", 0, 3, 1, ";", ";", "#X", "insert", "resSynthThreshold", 0.003, ";", ";", "#X", "insert", "fiddlePitchSet", 1, ";", ";", "#X", "insert", "resSynthRedraw", "redraw", 1, ";", ";", "#X", "insert", "resSynthSpeed", 1.0, ";", ";", "#X", "insert", "resSynthEnv", 1500, 15000, 29000, ";", ";", "#X", "insert", "resSynthStart", "start", ";", ";", "#X", "insert", "reverbParams", 50, 75, 110, 86, ";", ";", "#X", "insert", "reverbInput_lvl", 1.0, ";", ";", "#X", "insert", "reverbEnv", 1500, 40000, 1500, ";", ";", "#X", "insert", "muteResonantSynthesis", 0, 1, ";", ";", "#X", "insert", "muteReverb", 0, 1, ";", ";", "#X", "insert", 3, ";", ";", "#X", "insert", "routeMap", "clear", ";", ";", "#X", "insert", "routeMap", 3, 0, 1, ";", ";", "#X", "insert", "shufflingParams", 10, 200, 106, 167, ";", ";", "#X", "insert", "shufflingEnv", 1300, 24300, 6000, ";", ";", "#X", "insert", "traj1Toggle", 1, ";", ";", "#X", "insert", "traj2Toggle", 1, ";", ";", "#X", "insert", "rmToggle", 0, ";", ";", "#X", "insert", "shuffleStart", 1, ";", ";", "#X", "insert", "muteShuffling", 0, 1, ";", ";", "#X", "insert", 4, ";", ";", "#X", "insert", "routeMap", "clear", ";", ";", "#X", "insert", "routeMap", 3, 1, 1, ";", ";", "#X", "insert", "traj3_env", 175.0, "_comma_", 30.0, 24500, ";", ";", "#X", "insert", "traj4_env", 40.0, "_comma_", 210.0, 24500, ";", ";", "#X", "insert", "stretchParams", 3500, 7, 80, 64, ";", ";", "#X", "insert", "startStretch", "bang", ";", ";", "#X", "insert", "muteTimeStretching", 0, 1, ";", ";", "#X", "insert", 5, ";", ";", "#X", "insert", "routeMap", "clear", ";", ";", "#X", "insert", "routeMap", 2, 0, 1, ";", ";", "#X", "insert", "shufflingParams", 16, 173, 119, 187, ";", ";", "#X", "insert", "shufflingEnv", 1300, 19000, 5500, ";", ";", "#X", "insert", "traj1Toggle", 1, ";", ";", "#X", "insert", "traj2Toggle", 1, ";", ";", "#X", "insert", "rmToggle", 1, ";", ";", "#X", "insert", "rmParams", 180, 19, 137, ";", ";", "#X", "insert", "shuffleStart", 1, ";", ";", "#X", "insert", "muteShuffling", 0, 1, ";", ";", "#X", "insert", 6, ";", ";" ],
 					"text" : "qlist"
 				}
 
