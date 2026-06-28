@@ -44226,7 +44226,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 454.0, 386.0, 50.0, 35.0 ],
-																	"text" : "1519 1375"
+																	"text" : "243 124"
 																}
 
 															}
@@ -44346,7 +44346,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 521.0, 285.0, 50.0, 22.0 ],
-																	"text" : "1375"
+																	"text" : "124"
 																}
 
 															}
@@ -44429,7 +44429,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 316.0, 285.0, 50.0, 22.0 ],
-																	"text" : "144"
+																	"text" : "119"
 																}
 
 															}
@@ -44501,7 +44501,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 162.0, 309.0, 50.0, 22.0 ],
-																	"text" : "186"
+																	"text" : "124"
 																}
 
 															}
