@@ -5,8 +5,13 @@
 
 	Messages:
 	  list id x y     move source 'id' to pixel position (x, y) and redraw
-	  bang             force redraw
+	  reset id         clear the trail of source 'id' — next point starts fresh,
+	                   no jump line (source color slot is kept)
+	  resetall         clear all trails at once, all color slots kept
+	  clearid id       remove source 'id' entirely (trail + color slot)
 	  clear            remove all sources and trails
+	  bang             force redraw
+	  redraw           alias for bang
 	  trailLength n    set max trail points (default 120)
 
 	Coordinate input:
@@ -17,7 +22,6 @@
 mgraphics.init();
 mgraphics.relative_coords = 1;
 mgraphics.autofill = 0;
-mgraphics.bgcolor = [0, 0, 0, 1];
 
 autowatch = 1;
 inlets    = 1;
@@ -75,7 +79,7 @@ var SPK_R = relLX(5);
 var HEAD_R = relLX(2.5);
 
 // ── Trail settings ─────────────────────────────────────────────────────────────
-var TRAIL_MAX = 800;
+var TRAIL_MAX = 1200;
 
 // ── Per-source LED color ramps (dark-dim tail → vivid LED head) ───────────────
 var RAMPS = [
@@ -135,6 +139,43 @@ function clear() {
 	mgraphics.redraw();
 }
 
+// Clear the trail of one source without removing it.
+// The color slot is preserved, and the next incoming point
+// starts a fresh segment — no jump line across the gap.
+function reset() {
+	var a  = arrayfromargs(arguments);
+	if (a.length < 1) return;
+	var id = a[0];
+	if (sources[id]) {
+		sources[id].trail = [];
+		mgraphics.redraw();
+	}
+}
+
+// Clear all trails at once, keeping every source and its color slot.
+function resetall() {
+	for (var id in sources) {
+		sources[id].trail = [];
+	}
+	mgraphics.redraw();
+}
+
+// Remove one source entirely (trail + color slot freed).
+function clearid() {
+	var a  = arrayfromargs(arguments);
+	if (a.length < 1) return;
+	var id = a[0];
+	if (sources[id]) {
+		delete sources[id];
+		mgraphics.redraw();
+	}
+}
+
+// Explicit redraw — handy to drive from a metro without sending data.
+function redraw() {
+	mgraphics.redraw();
+}
+
 function trailLength(n) {
 	TRAIL_MAX = Math.max(2, Math.floor(n));
 }
@@ -144,10 +185,9 @@ function paint() {
 	var g = mgraphics;
 
 	// Black background — fill the full [-1,+1] square
-    g.set_source_rgba(0, 0, 0, 1);
-    g.rectangle(-1, -1, 2, 2);
-    g.fill_preserve();
-    g.fill();
+	g.set_source_rgba(0, 0, 0, 1);
+	g.rectangle(-1, -1, 2, 2);
+	g.fill();
 
 	// ── Main oval ──
 	drawEllipse(g, OCX, OCY, ORX, ORY, OVAL_STEPS,
@@ -186,7 +226,7 @@ function paint() {
 			var alpha = 0.15 + 0.85 * tm;
 
 			// line width in relative units (~0.002 thin → ~0.006 at head)
-			var lw = 0.01 + 0.004 * tm;
+			var lw = 0.002 + 0.004 * tm;
 
 			g.set_source_rgba(r, gr, b, alpha);
 			g.set_line_width(lw);
