@@ -236,7 +236,7 @@
 ,
 					"patching_rect" : [ 1142.0, 114.0, 100.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1055.0, 83.0, 75.0, 22.0 ],
+					"presentation_rect" : [ 1063.0, 111.0, 75.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -709,7 +709,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1189.0, 1001.0, 15.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 677.0, 515.0, 15.0, 15.0 ]
+					"presentation_rect" : [ 674.0, 556.0, 15.0, 15.0 ]
 				}
 
 			}
@@ -872,7 +872,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1449.0, 580.0, 268.0, 213.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 995.0, 400.0, 206.0, 186.0 ]
+					"presentation_rect" : [ 1003.0, 428.0, 206.0, 186.0 ]
 				}
 
 			}
@@ -887,7 +887,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1173.0, 580.0, 239.0, 213.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 978.0, 386.0, 239.0, 213.0 ]
+					"presentation_rect" : [ 986.0, 414.0, 239.0, 213.0 ]
 				}
 
 			}
@@ -1235,7 +1235,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 927.5, 515.0, 15.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 701.0, 352.0, 15.0, 15.0 ]
+					"presentation_rect" : [ 698.0, 393.0, 15.0, 15.0 ]
 				}
 
 			}
@@ -1253,7 +1253,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 750.5, 515.0, 15.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 617.0, 352.0, 15.0, 15.0 ]
+					"presentation_rect" : [ 614.0, 393.0, 15.0, 15.0 ]
 				}
 
 			}
@@ -1271,7 +1271,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 612.0, 515.0, 15.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 539.0, 352.0, 15.0, 15.0 ]
+					"presentation_rect" : [ 536.0, 393.0, 15.0, 15.0 ]
 				}
 
 			}
@@ -1324,7 +1324,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 883.0, 1177.0, 100.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 852.0, 461.0, 100.0, 23.0 ],
+					"presentation_rect" : [ 830.0, 542.0, 100.0, 23.0 ],
 					"textjustification" : 1
 				}
 
@@ -1806,7 +1806,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 993.0, 922.0, 175.0, 136.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 564.0, 394.0, 175.0, 136.0 ],
+					"presentation_rect" : [ 561.0, 435.0, 175.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[20]",
@@ -1832,7 +1832,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 759.0, 1489.0, 115.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 704.5, 543.0, 115.0, 22.0 ],
+					"presentation_rect" : [ 702.0, 584.0, 115.0, 22.0 ],
 					"text" : "dac~ 1 2 3 4 5 6 7 8"
 				}
 
@@ -1849,7 +1849,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 759.0, 1309.0, 322.0, 136.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 674.0, 394.0, 176.0, 136.0 ],
+					"presentation_rect" : [ 671.0, 435.0, 176.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[19]",
@@ -3149,7 +3149,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 551.0, 917.0, 175.0, 136.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 440.5, 394.0, 175.0, 136.0 ],
+					"presentation_rect" : [ 438.0, 435.0, 175.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[18]",
@@ -3212,7 +3212,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 53.0, 259.5, 465.5, 191.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 831.0, 183.0, 418.0, 191.0 ],
+					"presentation_rect" : [ 839.0, 211.0, 418.0, 191.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -3315,7 +3315,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 581.0, 196.0, 110.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 581.0, 197.0, 110.0, 26.0 ],
+					"presentation_rect" : [ 578.0, 238.0, 110.0, 26.0 ],
 					"text" : "to Spat",
 					"textjustification" : 1
 				}
@@ -3332,7 +3332,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 857.0, 485.0, 48.0, 136.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 660.0, 231.0, 49.0, 136.0 ],
+					"presentation_rect" : [ 657.0, 272.0, 49.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[17]",
@@ -3361,7 +3361,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1004.0, 489.0, 48.0, 136.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 738.0, 231.0, 48.0, 136.0 ],
+					"presentation_rect" : [ 735.0, 272.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[16]",
@@ -3390,7 +3390,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 666.0, 488.5, 66.0, 137.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 574.0, 231.0, 58.0, 136.0 ],
+					"presentation_rect" : [ 571.0, 272.0, 58.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[15]",
@@ -3419,7 +3419,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 543.5, 489.0, 48.0, 136.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 499.0, 231.0, 48.0, 136.0 ],
+					"presentation_rect" : [ 496.0, 272.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[14]",
@@ -3882,7 +3882,7 @@
 ,
 					"patching_rect" : [ 390.0, 229.0, 100.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 822.0, 60.0, 60.0, 22.0 ],
+					"presentation_rect" : [ 830.0, 88.0, 60.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -28073,7 +28073,7 @@
 ,
 					"patching_rect" : [ 390.0, 200.0, 100.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 837.0, 107.0, 43.0, 22.0 ],
+					"presentation_rect" : [ 845.0, 135.0, 43.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -28200,6 +28200,7 @@
 										"style" : "",
 										"subpatcher_template" : "",
 										"assistshowspatchername" : 0,
+										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-35",
@@ -28419,8 +28420,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 824.0, 181.0, 99.0, 22.0 ],
-													"text" : "0, 1 $1 1 $2 0 $3"
+													"patching_rect" : [ 824.0, 181.0, 132.0, 22.0 ],
+													"text" : "0, 0.25 $1 0.25 $2 0 $3"
 												}
 
 											}
@@ -71202,7 +71203,7 @@
 ,
 					"patching_rect" : [ 391.0, 169.0, 100.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 837.0, 83.0, 43.0, 22.0 ],
+					"presentation_rect" : [ 845.0, 111.0, 43.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -71224,7 +71225,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1055.0, 120.0, 80.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 959.0, 112.0, 89.0, 20.0 ],
+					"presentation_rect" : [ 967.0, 140.0, 89.0, 20.0 ],
 					"text" : "Send test to",
 					"textjustification" : 1
 				}
@@ -71240,7 +71241,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1088.0, 47.0, 80.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1072.0, 47.0, 41.0, 20.0 ],
+					"presentation_rect" : [ 1080.0, 75.0, 41.0, 20.0 ],
 					"text" : "Loop",
 					"textjustification" : 1
 				}
@@ -71256,7 +71257,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1000.0, 98.0, 80.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 979.0, 47.0, 65.0, 20.0 ],
+					"presentation_rect" : [ 987.0, 75.0, 65.0, 20.0 ],
 					"text" : "Start/Stop",
 					"textjustification" : 1
 				}
@@ -71272,7 +71273,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1053.0, 21.5, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1046.0, 45.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 1054.0, 73.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -71300,7 +71301,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1014.0, 21.5, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 953.0, 45.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 961.0, 73.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -71313,7 +71314,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 974.5, 51.0, 35.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 953.0, 18.0, 35.0, 22.0 ],
+					"presentation_rect" : [ 961.0, 46.0, 35.0, 22.0 ],
 					"text" : "open"
 				}
 
@@ -71327,7 +71328,7 @@
 					"outlettype" : [ "signal", "bang" ],
 					"patching_rect" : [ 1014.0, 80.0, 47.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 953.0, 83.0, 47.0, 22.0 ],
+					"presentation_rect" : [ 961.0, 111.0, 47.0, 22.0 ],
 					"text" : "sfplay~"
 				}
 
@@ -71357,7 +71358,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 828.0, 22.0, 100.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 953.0, 134.0, 100.0, 23.0 ],
+					"presentation_rect" : [ 961.0, 162.0, 100.0, 23.0 ],
 					"textjustification" : 1,
 					"truncate" : 2
 				}
@@ -71387,7 +71388,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1002.0, 111.0, 48.0, 136.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 892.0, 32.0, 48.0, 136.0 ],
+					"presentation_rect" : [ 900.0, 60.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[7]",
@@ -71415,7 +71416,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 543.0, 42.0, 110.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 581.0, 3.0, 110.0, 26.0 ],
+					"presentation_rect" : [ 578.0, 44.0, 110.0, 26.0 ],
 					"text" : "Inputs",
 					"textjustification" : 1
 				}
@@ -71510,7 +71511,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 845.0, 152.0, 48.0, 136.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 767.0, 32.0, 48.0, 136.0 ],
+					"presentation_rect" : [ 764.0, 73.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[6]",
@@ -71540,7 +71541,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 795.0, 152.0, 48.0, 136.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 717.0, 32.0, 48.0, 136.0 ],
+					"presentation_rect" : [ 714.0, 73.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[5]",
@@ -71570,7 +71571,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 745.0, 152.0, 48.0, 136.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 667.0, 32.0, 48.0, 136.0 ],
+					"presentation_rect" : [ 664.0, 73.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[4]",
@@ -71600,7 +71601,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 595.0, 152.0, 48.0, 136.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 517.0, 32.0, 48.0, 136.0 ],
+					"presentation_rect" : [ 514.0, 73.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[3]",
@@ -71630,7 +71631,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 545.0, 152.0, 48.0, 136.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 467.0, 32.0, 48.0, 136.0 ],
+					"presentation_rect" : [ 464.0, 73.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[2]",
@@ -71660,7 +71661,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 645.0, 152.0, 48.0, 136.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 567.0, 32.0, 48.0, 136.0 ],
+					"presentation_rect" : [ 564.0, 73.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[1]",
@@ -71690,7 +71691,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 695.0, 152.0, 48.0, 136.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 617.0, 32.0, 48.0, 136.0 ],
+					"presentation_rect" : [ 614.0, 73.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -73219,7 +73220,7 @@
 					"patching_rect" : [ 4364.0, 2800.0, 90.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 100.0, 634.0, 59.277353689567406, 23.0 ],
-					"text" : "0.0 %",
+					"text" : "3.0 %",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 2
 				}
@@ -73265,7 +73266,7 @@
 					"patching_rect" : [ 4640.0, 2868.0, 72.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 103.0, 669.0, 51.867684478371473, 19.0 ],
-					"text" : "0.0 %",
+					"text" : "19.0 %",
 					"textcolor" : [ 0.203921568627451, 0.196078431372549, 0.196078431372549, 1.0 ],
 					"textjustification" : 2
 				}
@@ -73311,7 +73312,7 @@
 					"patching_rect" : [ 4512.0, 2868.0, 72.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 103.0, 656.0, 51.867684478371473, 19.0 ],
-					"text" : "0.0 %",
+					"text" : "5.5 %",
 					"textcolor" : [ 0.203921568627451, 0.196078431372549, 0.196078431372549, 1.0 ],
 					"textjustification" : 2
 				}
@@ -73956,7 +73957,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "bang" ],
 					"patching_rect" : [ 1295.0, 296.0, 94.0, 22.0 ],
-					"save" : [ "#N", "qlist", ";", "#X", "insert", "printTest", 1, ";", ";", "#X", "insert", "muteTimeStretching", 1, 1, ";", ";", "#X", "insert", "muteShuffling", 1, 1, ";", ";", "#X", "insert", "muteReverb", 1, 1, ";", ";", "#X", "insert", "muteAmp", 0, 1, ";", ";", "#X", "insert", "muteResonantSynthesis", 1, 1, 0, ";", ";", "#X", "insert", "resSynthStart", "stop", ";", ";", "#X", "insert", "amp_lvl", 1.0, ";", ";", "#X", "insert", "routeMap", "clear", ";", ";", "#X", "insert", "traj1Toggle", 0, ";", ";", "#X", "insert", "traj2Toggle", 0, ";", ";", "#X", "insert", "traj3_stop", 0, ";", ";", "#X", "insert", "traj4_stop", 0, ";", ";", "#X", "insert", "toBeesViewer", "clear", ";", ";", "#X", "insert", "toSpatViewer", "resetall", "_comma_", "clear", ";", ";", "#X", "insert", "currentEvent", "Reset", ";", ";", "#X", "insert", "nextEvent", "Piano", "to", "Time-Stretching", "(bar", 22, "-", "Situation", "2)", ";", ";", "#X", "insert", 0, ";", ";", "#X", "insert", "routeMap", "clear", ";", ";", "#X", "insert", "routeMap", 2, 1, 1, ";", ";", "#X", "insert", "traj3_env", 200.0, "_comma_", 10.0, 45000, ";", ";", "#X", "insert", "traj4_env", 60.0, "_comma_", 245.0, 45000, ";", ";", "#X", "insert", "stretchParams", 5000, 9, 180, 64, ";", ";", "#X", "insert", "startStretch", "bang", ";", ";", "#X", "insert", "muteTimeStretching", 0, 1, ";", ";", "#X", "insert", "currentEvent", "Piano", "to", "Time-Stretching", "(bar", 22, "-", "Situation", "2)", ";", ";", "#X", "insert", "nextEvent", "Tutti", "to", "Resonant", "Synthesis", "(bar", 27, "-", "Situation", "2)", ";", ";", "#X", "insert", 1, ";", ";", "#X", "insert", "routeMap", "clear", ";", ";", "#X", "insert", "routeMap", 0, 2, 1, "_comma_", 1, 2, 1, "_comma_", 2, 2, 1, "_comma_", 3, 2, 1, "_comma_", 4, 2, 1, ";", ";", "#X", "insert", "resSynthThreshold", 0.003, ";", ";", "#X", "insert", "fiddlePitchSet", 1, ";", ";", "#X", "insert", "resSynthRedraw", "redraw", 1, ";", ";", "#X", "insert", "resSynthSpeed", 1.0, ";", ";", "#X", "insert", "resSynthEnv", 2700, 34000, 40000, ";", ";", "#X", "insert", "resSynthStart", "start", ";", ";", "#X", "insert", "muteResonantSynthesis", 0, 1, ";", ";", "#X", "insert", "currentEvent", "Tutti", "to", "Resonant", "Synthesis", "(bar", 27, "-", "Situation", "2)", ";", ";", "#X", "insert", "nextEvent", "Flute", "to", "Resonant", "Synthesis", "and", "Reverb", "(bar", 53, "-", "Situation", "2)", ";", ";", "#X", "insert", 2, ";", ";", "#X", "insert", "routeMap", "clear", ";", ";", "#X", "insert", "routeMap", 0, 2, 1, "_comma_", 0, 3, 1, ";", ";", "#X", "insert", "resSynthThreshold", 0.003, ";", ";", "#X", "insert", "fiddlePitchSet", 1, ";", ";", "#X", "insert", "resSynthRedraw", "redraw", 1, ";", ";", "#X", "insert", "resSynthSpeed", 1.0, ";", ";", "#X", "insert", "resSynthEnv", 1500, 15000, 29000, ";", ";", "#X", "insert", "resSynthStart", "start", ";", ";", "#X", "insert", "reverbParams", 50, 75, 110, 86, ";", ";", "#X", "insert", "reverbInput_lvl", 1.0, ";", ";", "#X", "insert", "reverbEnv", 1500, 40000, 1500, ";", ";", "#X", "insert", "muteResonantSynthesis", 0, 1, ";", ";", "#X", "insert", "muteReverb", 0, 1, ";", ";", "#X", "insert", "currentEvent", "Flute", "to", "Resonant", "Synthesis", "and", "Reverb", "(bar", 53, "-", "Situation", "2)", ";", ";", "#X", "insert", "nextEvent", "Cello", "to", "Shuffling", "(bar", 70, "-", "Situation", "4)", ";", ";", "#X", "insert", 3, ";", ";", "#X", "insert", "routeMap", "clear", ";", ";", "#X", "insert", "routeMap", 4, 0, 1, ";", ";", "#X", "insert", "shufflingParams", 10, 200, 106, 167, ";", ";", "#X", "insert", "shufflingEnv", 1300, 24300, 6000, ";", ";", "#X", "insert", "traj1Toggle", 1, ";", ";", "#X", "insert", "traj2Toggle", 1, ";", ";", "#X", "insert", "rmToggle", 0, ";", ";", "#X", "insert", "shuffleStart", 1, ";", ";", "#X", "insert", "muteShuffling", 0, 1, ";", ";", "#X", "insert", "currentEvent", "Cello", "to", "Shuffling", "(bar", 70, "-", "Situation", "4)", ";", ";", "#X", "insert", "nextEvent", "Violin", "to", "Time", "Stretching", "(bar", 86, "-", "Situation", "4)", ";", ";", "#X", "insert", 4, ";", ";", "#X", "insert", "routeMap", "clear", ";", ";", "#X", "insert", "routeMap", 3, 1, 1, ";", ";", "#X", "insert", "traj3_env", 175.0, "_comma_", 30.0, 24500, ";", ";", "#X", "insert", "traj4_env", 40.0, "_comma_", 210.0, 24500, ";", ";", "#X", "insert", "stretchParams", 3500, 7, 80, 64, ";", ";", "#X", "insert", "startStretch", "bang", ";", ";", "#X", "insert", "muteTimeStretching", 0, 1, ";", ";", "#X", "insert", "currentEvent", "Violin", "to", "Time", "Stretching", "(bar", 86, "-", "Situation", "4)", ";", ";", "#X", "insert", "nextEvent", "Piano", "to", "Shuffling", "+", "RM", "(bar", 94, "-", "Situation", "5)", ";", ";", "#X", "insert", 5, ";", ";", "#X", "insert", "routeMap", "clear", ";", ";", "#X", "insert", "routeMap", 2, 0, 1, ";", ";", "#X", "insert", "shufflingParams", 16, 173, 119, 187, ";", ";", "#X", "insert", "shufflingEnv", 1300, 19000, 5500, ";", ";", "#X", "insert", "traj1Toggle", 1, ";", ";", "#X", "insert", "traj2Toggle", 1, ";", ";", "#X", "insert", "rmToggle", 1, ";", ";", "#X", "insert", "rmParams", 180, 19, 137, ";", ";", "#X", "insert", "shuffleStart", 1, ";", ";", "#X", "insert", "muteShuffling", 0, 1, ";", ";", "#X", "insert", "currentEvent", "Piano", "to", "Shuffling", "+", "RM", "(bar", 94, "-", "Situation", "5)", ";", ";", "#X", "insert", "nextEvent", "Cello", "to", "Time", "Stretching", "(bar", 108, "-", "Situation", "5)", ";", ";", "#X", "insert", 6, ";", ";", "#X", "insert", "routeMap", "clear", ";", ";", "#X", "insert", "routeMap", 4, 1, 1, ";", ";", "#X", "insert", "traj3_env", 230.0, "_comma_", 190.0, 25000, ";", ";", "#X", "insert", "traj4_env", 110.0, "_comma_", 160.0, 25000, ";", ";", "#X", "insert", "stretchParams", 5000, 5, 144, 64, ";", ";", "#X", "insert", "startStretch", "bang", ";", ";", "#X", "insert", "muteTimeStretching", 0, 1, ";", ";", "#X", "insert", "currentEvent", "Cello", "to", "Time", "Stretching", "(bar", 108, "-", "Situation", "5)", ";", ";", "#X", "insert", "nextEvent", "Tutti", "to", "Resonant", "Synthesis", "+", "Reverb", "(bar", 118, "-", "Situation", "6)", ";", ";", "#X", "insert", 7, ";", ";", "#X", "insert", "routeMap", "clear", ";", ";", "#X", "insert", "routeMap", 0, 2, 1, "_comma_", 0, 3, 1, "_comma_", 1, 2, 1, "_comma_", 1, 3, 1, "_comma_", 2, 2, 1, "_comma_", 2, 3, 1, "_comma_", 3, 2, 1, "_comma_", 3, 3, 1, "_comma_", 4, 2, 1, "_comma_", 4, 3, 1, ";", ";", "#X", "insert", "resSynthThreshold", 0.006, ";", ";", "#X", "insert", "fiddlePitchSet", 2, ";", ";", "#X", "insert", "resSynthRedraw", "redraw", 1, ";", ";", "#X", "insert", "resSynthSpeed", 1.0, ";", ";", "#X", "insert", "resSynthEnv", 2000, 45000, 9000, ";", ";", "#X", "insert", "resSynthStart", "start", ";", ";", "#X", "insert", "reverbParams", 70, 95, 100, 95, ";", ";", "#X", "insert", "reverbInput_lvl", 0.25, ";", ";", "#X", "insert", "reverbEnv", 1500, 40000, 1500, ";", ";", "#X", "insert", "muteResonantSynthesis", 0, 1, ";", ";", "#X", "insert", "muteReverb", 0, 1, ";", ";", "#X", "insert", "currentEvent", "Tutti", "to", "Resonant", "Synthesis", "+", "Reverb", "(bar", 118, "-", "Situation", "6)", ";", ";", "#X", "insert", "nextEvent", "Clarinet/Leaf", "to", "Shuffling", "+", "RM", "(bar", 144, "-", "Situation", "7)", ";", ";", "#X", "insert", 8, ";", ";", "#X", "insert", "routeMap", "clear", ";", ";", "#X", "insert", "routeMap", 1, 0, 1, ";", ";", "#X", "insert", "shufflingParams", 18, 180, 145, 220, ";", ";", "#X", "insert", "shufflingEnv", 800, 34000, 5500, ";", ";", "#X", "insert", "traj1Toggle", 1, ";", ";", "#X", "insert", "traj2Toggle", 1, ";", ";", "#X", "insert", "rmToggle", 1, ";", ";", "#X", "insert", "rmParams", 780, 16, 137, ";", ";", "#X", "insert", "shuffleStart", 1, ";", ";", "#X", "insert", "muteShuffling", 0, 1, ";", ";", "#X", "insert", "currentEvent", "Clarinet/Leaf", "to", "Shuffling", "+", "RM", "(bar", 144, "-", "Situation", "7)", ";", ";", "#X", "insert", "nextEvent", "Flute", "to", "Shuffling", "(bar", 178, "-", "Situation", "9)", ";", ";", "#X", "insert", 9, ";", ";", "#X", "insert", "routeMap", "clear", ";", ";", "#X", "insert", "routeMap", 0, 0, 1, ";", ";", "#X", "insert", "shufflingParams", 2, 20, 131, 161, ";", ";", "#X", "insert", "shufflingEnv", 800, 16300, 5800, ";", ";", "#X", "insert", "traj1Toggle", 1, ";", ";", "#X", "insert", "traj2Toggle", 1, ";", ";", "#X", "insert", "rmToggle", 0, ";", ";", "#X", "insert", "shuffleStart", 1, ";", ";", "#X", "insert", "muteShuffling", 0, 1, ";", ";", "#X", "insert", "currentEvent", "Flute", "to", "Shuffling", "(bar", 178, "-", "Situation", "9)", ";", ";", "#X", "insert", "nextEvent", "Tutti", "to", "Resonant", "Synthesis", "(bar", 189, "-", "Situation", "10)", ";", ";", "#X", "insert", 10, ";", ";", "#X", "insert", "routeMap", "clear", ";", ";", "#X", "insert", "routeMap", 0, 2, 1, "_comma_", 1, 2, 1, "_comma_", 2, 2, 1, "_comma_", 3, 2, 1, "_comma_", 4, 2, 1, ";", ";", "#X", "insert", "resSynthThreshold", 0.006, ";", ";", "#X", "insert", "fiddlePitchSet", 2, ";", ";", "#X", "insert", "resSynthRedraw", "redraw", 2, ";", ";", "#X", "insert", "resSynthSpeed", 1.0, ";", ";", "#X", "insert", "resSynthEnv", 2000, 48000, 8400, ";", ";", "#X", "insert", "resSynthStart", "start", ";", ";", "#X", "insert", "muteResonantSynthesis", 0, 1, ";", ";", "#X", "insert", "currentEvent", "Tutti", "to", "Resonant", "Synthesis", "(bar", 189, "-", "Situation", "10)", ";", ";", "#X", "insert", "nextEvent", "Cello", "to", "Shuffling", "+", "RM", "(bar", 196, "-", "Situation", "11)", ";", ";", "#X", "insert", 11, ";", ";", "#X", "insert", "routeMap", "clear", ";", ";", "#X", "insert", "routeMap", 4, 0, 1, ";", ";", "#X", "insert", "shufflingParams", 10, 200, 106, 167, ";", ";", "#X", "insert", "shufflingEnv", 800, 15500, 4000, ";", ";", "#X", "insert", "traj1Toggle", 1, ";", ";", "#X", "insert", "traj2Toggle", 1, ";", ";", "#X", "insert", "rmToggle", 1, ";", ";", "#X", "insert", "rmParams", 1300, 28, 137, ";", ";", "#X", "insert", "shuffleStart", 1, ";", ";", "#X", "insert", "muteShuffling", 0, 1, ";", ";", "#X", "insert", "currentEvent", "Cello", "to", "Shuffling", "+", "RM", "(bar", 196, "-", "Situation", "11)", ";", ";", "#X", "insert", "nextEvent", "Violin", "to", "Time", "Stretching", "(bar", 258, "-", "Situation", "12)", ";", ";", "#X", "insert", 12, ";", ";", "#X", "insert", "routeMap", "clear", ";", ";", "#X", "insert", "routeMap", 3, 1, 1, ";", ";", "#X", "insert", "traj3_env", 225.0, "_comma_", 210.0, 46200, ";", ";", "#X", "insert", "traj4_env", 130.0, "_comma_", 200.0, 46200, ";", ";", "#X", "insert", "stretchParams", 2200, 21, 200, 64, ";", ";", "#X", "insert", "startStretch", "bang", ";", ";", "#X", "insert", "muteTimeStretching", 0, 1, ";", ";", "#X", "insert", "currentEvent", "Violin", "to", "Time", "Stretching", "(bar", 258, "-", "Situation", "12)", ";", ";", "#X", "insert", "nextEvent", "Cello", "to", "Resonant", "Synthesis", "(bar", 269, "-", "Situation", "13)", ";", ";", "#X", "insert", 13, ";", ";", "#X", "insert", "routeMap", "clear", ";", ";", "#X", "insert", "routeMap", 4, 2, 1, ";", ";", "#X", "insert", "resSynthThreshold", 0.003, ";", ";", "#X", "insert", "fiddlePitchSet", 4, ";", ";", "#X", "insert", "resSynthRedraw", "redraw", 3, ";", ";", "#X", "insert", "resSynthSpeed", 1.0, ";", ";", "#X", "insert", "resSynthFinalEnv", 0, "_comma_", 1, 8000, ";", ";", "#X", "insert", "resSynthStart", "start", ";", ";", "#X", "insert", "muteResonantSynthesis", 0, 1, ";", ";", "#X", "insert", "currentEvent", "Cello", "to", "Resonant", "Synthesis", "(bar", 269, "-", "Situation", "13)", ";", ";", "#X", "insert", "nextEvent", "Final", "fade-out", "(bar", 318, "-", "Situation", "13)", ";", ";", "#X", "insert", 14, ";", ";", "#X", "insert", "resSynthFinalEnv", 1, "_comma_", 0, 21000, ";", ";", "#X", "insert", "currentEvent", "Final", "fade-out", "(bar", 318, "-", "Situation", "13)", ";", ";", "#X", "insert", "nextEvent", " ", ";", ";", "#X", "insert", 15, ";", ";" ],
+					"save" : [ "#N", "qlist", ";", "#X", "insert", "muteTimeStretching", 1, 1, ";", ";", "#X", "insert", "muteShuffling", 1, 1, ";", ";", "#X", "insert", "muteReverb", 1, 1, ";", ";", "#X", "insert", "muteAmp", 0, 1, ";", ";", "#X", "insert", "muteResonantSynthesis", 1, 1, 0, ";", ";", "#X", "insert", "resSynthStart", "stop", ";", ";", "#X", "insert", "amp_lvl", 1.0, ";", ";", "#X", "insert", "routeMap", "clear", ";", ";", "#X", "insert", "traj1Toggle", 0, ";", ";", "#X", "insert", "traj2Toggle", 0, ";", ";", "#X", "insert", "traj3_stop", 0, ";", ";", "#X", "insert", "traj4_stop", 0, ";", ";", "#X", "insert", "toBeesViewer", "clear", ";", ";", "#X", "insert", "toSpatViewer", "resetall", "_comma_", "clear", ";", ";", "#X", "insert", "currentEvent", "Reset", ";", ";", "#X", "insert", "nextEvent", "Piano", "to", "Time-Stretching", "(bar", 22, "-", "Situation", "2)", ";", ";", "#X", "insert", 0, ";", ";", "#X", "insert", "routeMap", "clear", ";", ";", "#X", "insert", "routeMap", 2, 1, 1, ";", ";", "#X", "insert", "traj3_env", 200.0, "_comma_", 10.0, 45000, ";", ";", "#X", "insert", "traj4_env", 60.0, "_comma_", 245.0, 45000, ";", ";", "#X", "insert", "stretchParams", 5000, 9, 180, 64, ";", ";", "#X", "insert", "startStretch", "bang", ";", ";", "#X", "insert", "muteTimeStretching", 0, 1, ";", ";", "#X", "insert", "currentEvent", "Piano", "to", "Time-Stretching", "(bar", 22, "-", "Situation", "2)", ";", ";", "#X", "insert", "nextEvent", "Tutti", "to", "Resonant", "Synthesis", "(bar", 27, "-", "Situation", "2)", ";", ";", "#X", "insert", 1, ";", ";", "#X", "insert", "routeMap", "clear", ";", ";", "#X", "insert", "routeMap", 0, 2, 1, "_comma_", 1, 2, 1, "_comma_", 2, 2, 1, "_comma_", 3, 2, 1, "_comma_", 4, 2, 1, ";", ";", "#X", "insert", "resSynthThreshold", 0.003, ";", ";", "#X", "insert", "fiddlePitchSet", 1, ";", ";", "#X", "insert", "resSynthRedraw", "redraw", 1, ";", ";", "#X", "insert", "resSynthSpeed", 1.0, ";", ";", "#X", "insert", "resSynthEnv", 2700, 34000, 40000, ";", ";", "#X", "insert", "resSynthStart", "start", ";", ";", "#X", "insert", "muteResonantSynthesis", 0, 1, ";", ";", "#X", "insert", "currentEvent", "Tutti", "to", "Resonant", "Synthesis", "(bar", 27, "-", "Situation", "2)", ";", ";", "#X", "insert", "nextEvent", "Flute", "to", "Resonant", "Synthesis", "and", "Reverb", "(bar", 53, "-", "Situation", "2)", ";", ";", "#X", "insert", 2, ";", ";", "#X", "insert", "routeMap", "clear", ";", ";", "#X", "insert", "routeMap", 0, 2, 1, "_comma_", 0, 3, 1, ";", ";", "#X", "insert", "resSynthThreshold", 0.003, ";", ";", "#X", "insert", "fiddlePitchSet", 1, ";", ";", "#X", "insert", "resSynthRedraw", "redraw", 1, ";", ";", "#X", "insert", "resSynthSpeed", 1.0, ";", ";", "#X", "insert", "resSynthEnv", 1500, 15000, 29000, ";", ";", "#X", "insert", "resSynthStart", "start", ";", ";", "#X", "insert", "reverbParams", 50, 75, 110, 86, ";", ";", "#X", "insert", "reverbInput_lvl", 1.0, ";", ";", "#X", "insert", "reverbEnv", 1500, 40000, 1500, ";", ";", "#X", "insert", "muteResonantSynthesis", 0, 1, ";", ";", "#X", "insert", "muteReverb", 0, 1, ";", ";", "#X", "insert", "currentEvent", "Flute", "to", "Resonant", "Synthesis", "and", "Reverb", "(bar", 53, "-", "Situation", "2)", ";", ";", "#X", "insert", "nextEvent", "Cello", "to", "Shuffling", "(bar", 70, "-", "Situation", "4)", ";", ";", "#X", "insert", 3, ";", ";", "#X", "insert", "routeMap", "clear", ";", ";", "#X", "insert", "routeMap", 4, 0, 1, ";", ";", "#X", "insert", "shufflingParams", 10, 200, 106, 167, ";", ";", "#X", "insert", "shufflingEnv", 1300, 24300, 6000, ";", ";", "#X", "insert", "traj1Toggle", 1, ";", ";", "#X", "insert", "traj2Toggle", 1, ";", ";", "#X", "insert", "rmToggle", 0, ";", ";", "#X", "insert", "shuffleStart", 1, ";", ";", "#X", "insert", "muteShuffling", 0, 1, ";", ";", "#X", "insert", "currentEvent", "Cello", "to", "Shuffling", "(bar", 70, "-", "Situation", "4)", ";", ";", "#X", "insert", "nextEvent", "Violin", "to", "Time", "Stretching", "(bar", 86, "-", "Situation", "4)", ";", ";", "#X", "insert", 4, ";", ";", "#X", "insert", "routeMap", "clear", ";", ";", "#X", "insert", "routeMap", 3, 1, 1, ";", ";", "#X", "insert", "traj3_env", 175.0, "_comma_", 30.0, 24500, ";", ";", "#X", "insert", "traj4_env", 40.0, "_comma_", 210.0, 24500, ";", ";", "#X", "insert", "stretchParams", 3500, 7, 80, 64, ";", ";", "#X", "insert", "startStretch", "bang", ";", ";", "#X", "insert", "muteTimeStretching", 0, 1, ";", ";", "#X", "insert", "currentEvent", "Violin", "to", "Time", "Stretching", "(bar", 86, "-", "Situation", "4)", ";", ";", "#X", "insert", "nextEvent", "Piano", "to", "Shuffling", "+", "RM", "(bar", 94, "-", "Situation", "5)", ";", ";", "#X", "insert", 5, ";", ";", "#X", "insert", "routeMap", "clear", ";", ";", "#X", "insert", "routeMap", 2, 0, 1, ";", ";", "#X", "insert", "shufflingParams", 16, 173, 119, 187, ";", ";", "#X", "insert", "shufflingEnv", 1300, 19000, 5500, ";", ";", "#X", "insert", "traj1Toggle", 1, ";", ";", "#X", "insert", "traj2Toggle", 1, ";", ";", "#X", "insert", "rmToggle", 1, ";", ";", "#X", "insert", "rmParams", 180, 19, 137, ";", ";", "#X", "insert", "shuffleStart", 1, ";", ";", "#X", "insert", "muteShuffling", 0, 1, ";", ";", "#X", "insert", "currentEvent", "Piano", "to", "Shuffling", "+", "RM", "(bar", 94, "-", "Situation", "5)", ";", ";", "#X", "insert", "nextEvent", "Cello", "to", "Time", "Stretching", "(bar", 108, "-", "Situation", "5)", ";", ";", "#X", "insert", 6, ";", ";", "#X", "insert", "routeMap", "clear", ";", ";", "#X", "insert", "routeMap", 4, 1, 1, ";", ";", "#X", "insert", "traj3_env", 230.0, "_comma_", 190.0, 25000, ";", ";", "#X", "insert", "traj4_env", 110.0, "_comma_", 160.0, 25000, ";", ";", "#X", "insert", "stretchParams", 5000, 5, 144, 64, ";", ";", "#X", "insert", "startStretch", "bang", ";", ";", "#X", "insert", "muteTimeStretching", 0, 1, ";", ";", "#X", "insert", "currentEvent", "Cello", "to", "Time", "Stretching", "(bar", 108, "-", "Situation", "5)", ";", ";", "#X", "insert", "nextEvent", "Tutti", "to", "Resonant", "Synthesis", "+", "Reverb", "(bar", 118, "-", "Situation", "6)", ";", ";", "#X", "insert", 7, ";", ";", "#X", "insert", "routeMap", "clear", ";", ";", "#X", "insert", "routeMap", 0, 2, 1, "_comma_", 0, 3, 1, "_comma_", 1, 2, 1, "_comma_", 1, 3, 1, "_comma_", 2, 2, 1, "_comma_", 2, 3, 1, "_comma_", 3, 2, 1, "_comma_", 3, 3, 1, "_comma_", 4, 2, 1, "_comma_", 4, 3, 1, ";", ";", "#X", "insert", "resSynthThreshold", 0.006, ";", ";", "#X", "insert", "fiddlePitchSet", 2, ";", ";", "#X", "insert", "resSynthRedraw", "redraw", 1, ";", ";", "#X", "insert", "resSynthSpeed", 1.0, ";", ";", "#X", "insert", "resSynthEnv", 2000, 45000, 9000, ";", ";", "#X", "insert", "resSynthStart", "start", ";", ";", "#X", "insert", "reverbParams", 70, 95, 100, 95, ";", ";", "#X", "insert", "reverbInput_lvl", 0.25, ";", ";", "#X", "insert", "reverbEnv", 1500, 40000, 1500, ";", ";", "#X", "insert", "muteResonantSynthesis", 0, 1, ";", ";", "#X", "insert", "muteReverb", 0, 1, ";", ";", "#X", "insert", "currentEvent", "Tutti", "to", "Resonant", "Synthesis", "+", "Reverb", "(bar", 118, "-", "Situation", "6)", ";", ";", "#X", "insert", "nextEvent", "Clarinet/Leaf", "to", "Shuffling", "+", "RM", "(bar", 144, "-", "Situation", "7)", ";", ";", "#X", "insert", 8, ";", ";", "#X", "insert", "routeMap", "clear", ";", ";", "#X", "insert", "routeMap", 1, 0, 1, ";", ";", "#X", "insert", "shufflingParams", 18, 180, 145, 220, ";", ";", "#X", "insert", "shufflingEnv", 800, 34000, 5500, ";", ";", "#X", "insert", "traj1Toggle", 1, ";", ";", "#X", "insert", "traj2Toggle", 1, ";", ";", "#X", "insert", "rmToggle", 1, ";", ";", "#X", "insert", "rmParams", 780, 16, 137, ";", ";", "#X", "insert", "shuffleStart", 1, ";", ";", "#X", "insert", "muteShuffling", 0, 1, ";", ";", "#X", "insert", "currentEvent", "Clarinet/Leaf", "to", "Shuffling", "+", "RM", "(bar", 144, "-", "Situation", "7)", ";", ";", "#X", "insert", "nextEvent", "Flute", "to", "Shuffling", "(bar", 178, "-", "Situation", "9)", ";", ";", "#X", "insert", 9, ";", ";", "#X", "insert", "routeMap", "clear", ";", ";", "#X", "insert", "routeMap", 0, 0, 1, ";", ";", "#X", "insert", "shufflingParams", 2, 20, 131, 161, ";", ";", "#X", "insert", "shufflingEnv", 800, 16300, 5800, ";", ";", "#X", "insert", "traj1Toggle", 1, ";", ";", "#X", "insert", "traj2Toggle", 1, ";", ";", "#X", "insert", "rmToggle", 0, ";", ";", "#X", "insert", "shuffleStart", 1, ";", ";", "#X", "insert", "muteShuffling", 0, 1, ";", ";", "#X", "insert", "currentEvent", "Flute", "to", "Shuffling", "(bar", 178, "-", "Situation", "9)", ";", ";", "#X", "insert", "nextEvent", "Tutti", "to", "Resonant", "Synthesis", "(bar", 189, "-", "Situation", "10)", ";", ";", "#X", "insert", 10, ";", ";", "#X", "insert", "routeMap", "clear", ";", ";", "#X", "insert", "routeMap", 0, 2, 1, "_comma_", 1, 2, 1, "_comma_", 2, 2, 1, "_comma_", 3, 2, 1, "_comma_", 4, 2, 1, ";", ";", "#X", "insert", "resSynthThreshold", 0.006, ";", ";", "#X", "insert", "fiddlePitchSet", 2, ";", ";", "#X", "insert", "resSynthRedraw", "redraw", 2, ";", ";", "#X", "insert", "resSynthSpeed", 1.0, ";", ";", "#X", "insert", "resSynthEnv", 2000, 48000, 8400, ";", ";", "#X", "insert", "resSynthStart", "start", ";", ";", "#X", "insert", "muteResonantSynthesis", 0, 1, ";", ";", "#X", "insert", "currentEvent", "Tutti", "to", "Resonant", "Synthesis", "(bar", 189, "-", "Situation", "10)", ";", ";", "#X", "insert", "nextEvent", "Cello", "to", "Shuffling", "+", "RM", "(bar", 196, "-", "Situation", "11)", ";", ";", "#X", "insert", 11, ";", ";", "#X", "insert", "routeMap", "clear", ";", ";", "#X", "insert", "routeMap", 4, 0, 1, ";", ";", "#X", "insert", "shufflingParams", 10, 200, 106, 167, ";", ";", "#X", "insert", "shufflingEnv", 800, 15500, 4000, ";", ";", "#X", "insert", "traj1Toggle", 1, ";", ";", "#X", "insert", "traj2Toggle", 1, ";", ";", "#X", "insert", "rmToggle", 1, ";", ";", "#X", "insert", "rmParams", 1300, 28, 137, ";", ";", "#X", "insert", "shuffleStart", 1, ";", ";", "#X", "insert", "muteShuffling", 0, 1, ";", ";", "#X", "insert", "currentEvent", "Cello", "to", "Shuffling", "+", "RM", "(bar", 196, "-", "Situation", "11)", ";", ";", "#X", "insert", "nextEvent", "Violin", "to", "Time", "Stretching", "(bar", 258, "-", "Situation", "12)", ";", ";", "#X", "insert", 12, ";", ";", "#X", "insert", "routeMap", "clear", ";", ";", "#X", "insert", "routeMap", 3, 1, 1, ";", ";", "#X", "insert", "traj3_env", 225.0, "_comma_", 210.0, 46200, ";", ";", "#X", "insert", "traj4_env", 130.0, "_comma_", 200.0, 46200, ";", ";", "#X", "insert", "stretchParams", 2200, 21, 200, 64, ";", ";", "#X", "insert", "startStretch", "bang", ";", ";", "#X", "insert", "muteTimeStretching", 0, 1, ";", ";", "#X", "insert", "currentEvent", "Violin", "to", "Time", "Stretching", "(bar", 258, "-", "Situation", "12)", ";", ";", "#X", "insert", "nextEvent", "Cello", "to", "Resonant", "Synthesis", "(bar", 269, "-", "Situation", "13)", ";", ";", "#X", "insert", 13, ";", ";", "#X", "insert", "routeMap", "clear", ";", ";", "#X", "insert", "routeMap", 4, 2, 1, ";", ";", "#X", "insert", "resSynthThreshold", 0.003, ";", ";", "#X", "insert", "fiddlePitchSet", 4, ";", ";", "#X", "insert", "resSynthRedraw", "redraw", 3, ";", ";", "#X", "insert", "resSynthSpeed", 1.0, ";", ";", "#X", "insert", "resSynthFinalEnv", 0, "_comma_", 0.25, 8000, ";", ";", "#X", "insert", "resSynthStart", "start", ";", ";", "#X", "insert", "muteResonantSynthesis", 0, 1, ";", ";", "#X", "insert", "currentEvent", "Cello", "to", "Resonant", "Synthesis", "(bar", 269, "-", "Situation", "13)", ";", ";", "#X", "insert", "nextEvent", "Final", "fade-out", "(bar", 318, "-", "Situation", "13)", ";", ";", "#X", "insert", 14, ";", ";", "#X", "insert", "resSynthFinalEnv", 0.25, "_comma_", 0, 21000, ";", ";", "#X", "insert", "currentEvent", "Final", "fade-out", "(bar", 318, "-", "Situation", "13)", ";", ";", "#X", "insert", "nextEvent", " ", ";", ";", "#X", "insert", 15, ";", ";" ],
 					"text" : "qlist"
 				}
 
