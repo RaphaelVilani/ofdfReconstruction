@@ -79,7 +79,7 @@ var SPK_R = relLX(5);
 var HEAD_R = relLX(2.5);
 
 // ── Trail settings ─────────────────────────────────────────────────────────────
-var TRAIL_MAX = 1200;
+var TRAIL_MAX = 1500;
 
 // ── Per-source LED color ramps (dark-dim tail → vivid LED head) ───────────────
 var RAMPS = [
