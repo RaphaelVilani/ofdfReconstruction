@@ -2,7 +2,7 @@
 	"name" : "oFarfalharDasFolhas-BIMESP-2026",
 	"version" : 1,
 	"creationdate" : 3865539889,
-	"modificationdate" : 3865539931,
+	"modificationdate" : 3865860333,
 	"viewrect" : [ 25.0, 106.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -40,6 +40,9 @@
 		}
 ,
 		"externals" : 		{
+			"fiddle~.mxo" : 			{
+				"kind" : "object"
+			}
 
 		}
 ,
